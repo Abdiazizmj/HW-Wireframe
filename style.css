@@ -1,55 +1,47 @@
 .content {
-    color: grey;
+   
     background-color: #777;
     margin-bottom: 5%;
-    padding-bottom: 100%;
+    width: 80%;
+    margin: auto;
+    
 }
 
 .header {
-    position: relative;
-    background: #ebebeb;
-    margin: 0 auto;
-    text-align: center;
+   background: #ebebeb;
+   margin: 0 auto;
+   text-align: center;
    padding: 30px;
-   
    margin-top: -1.7%;
-   margin-left: 10%;
-   margin-right: 10%;
-
+   /* margin-left: 10%; */
+   /* margin-right: 10%; */
 }
 .nav {
-    position: relative;
     background: #ebebeb;
     text-align: center;
     padding: 30px;
     margin: 0 auto;
     margin-top: -1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
 }
 .sec {
-    position: absolute;
-   
-    background:#ebebeb;
-    text-align: center;
-    padding: 30px;
-    margin-bottom: 50%;
-    vertical-align: text-top;
-    line-height: 20px;
-    margin-left: 10%;
-    margin-right: 40%;
-    padding-right: 5px;
-
-    
-
+   background:#ebebeb;
+   text-align: center;
+   width: 70%;
+   height: 400px;
+   float: left;
+   margin-bottom: 10px;
+   vertical-align: text-top;
+   line-height: 20px;
+   padding: 5px;
 }
 .ht {
     background: grey;
     color: white;
     text-align: center;
     margin-bottom:5px;
-    padding-left: 15px;
-    padding-right: 15px;
+   
 }
 .h1 {
     background:white; 
@@ -69,24 +61,26 @@
     padding: 10px;
 }
 .c {
-    position: relative;
     text-align: center;
-background: white;
-color:grey;
-margin-right: 10%;
-margin-left: 60%;
-padding: 17.25%;
-padding-left: 10%;
-text-align: center;
-
+    background: white;
+    color:grey;
+    text-align: center;
+    width: 25%;
+    height: 400px;
+    float: right;
+    padding: 5px;
 }
 .footer {
-    position: relative;
     background: #ebebeb;
     color: #777;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
+    /* width: 80%; */
+    /* height: 20px; */
+    clear: both;
+}
+.margin {
+    margin: 5px;
 }
