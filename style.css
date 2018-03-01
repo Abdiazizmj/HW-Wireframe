@@ -1,6 +1,8 @@
 .content {
     color: grey;
-    background-color: #777
+    background-color: #777;
+    margin-bottom: 5%;
+    padding-bottom: 100%;
 }
 
 .header {
@@ -35,6 +37,7 @@
     vertical-align: text-top;
     line-height: 20px;
     margin-left: 10%;
+    margin-right: 40%;
     padding-right: 5px;
 
     
@@ -51,6 +54,7 @@
 .h1 {
     background:white; 
    color: #777;
+   text-align: center;
 }
 .h2 {
     background: white;
@@ -65,14 +69,16 @@
     padding: 10px;
 }
 .c {
-    position: relative;;
+    position: relative;
+    text-align: center;
 background: white;
 color:grey;
-
-margin-right: 100%;
+margin-right: 10%;
 margin-left: 60%;
 padding: 17.25%;
+padding-left: 10%;
 text-align: center;
+
 }
 .footer {
     position: relative;
@@ -82,4 +88,5 @@ text-align: center;
     margin-right: 10%;
     padding: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
